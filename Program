@@ -1,0 +1,140 @@
+#define aPin 2
+#define bPin 3
+#define cPin 4
+#define dPin 5
+#define ePin 6
+#define fPin 7
+#define gPin 8
+#define dpPin 9
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(aPin, OUTPUT);
+  pinMode(bPin, OUTPUT);
+  pinMode(cPin, OUTPUT);
+  pinMode(dPin, OUTPUT);
+  pinMode(ePin, OUTPUT);
+  pinMode(fPin, OUTPUT);
+  pinMode(gPin, OUTPUT);
+  pinMode(dpPin, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  pinMode(aPin, HIGH);
+  pinMode(bPin, HIGH);
+  pinMode(cPin, HIGH);
+  pinMode(dPin, HIGH);
+  pinMode(ePin, HIGH);
+  pinMode(fPin, HIGH); //Display 0
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(bPin, HIGH);
+  pinMode(cPin, HIGH); //Display 1
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(aPin, HIGH);
+  pinMode(bPin, HIGH);
+  pinMode(dPin, HIGH);
+  pinMode(ePin, HIGH);
+  pinMode(gPin, HIGH); //Display 2
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(aPin, HIGH);
+  pinMode(bPin, HIGH);
+  pinMode(cPin, HIGH);
+  pinMode(dPin, HIGH);
+  pinMode(gPin, HIGH); //display 3
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(bPin, HIGH);
+  pinMode(cPin, HIGH);
+  pinMode(fPin, HIGH);
+  pinMode(gPin, HIGH); //Display 4
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(aPin, HIGH);
+  pinMode(cPin, HIGH);
+  pinMode(dPin, HIGH);
+  pinMode(fPin, HIGH);
+  pinMode(gPin, HIGH); //Display 5
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(aPin, HIGH);
+  pinMode(cPin, HIGH);
+  pinMode(dPin, HIGH);
+  pinMode(ePin, HIGH);
+  pinMode(fPin, HIGH);
+  pinMode(gPin, HIGH); //Display 6
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(aPin, HIGH);
+  pinMode(bPin, HIGH);
+  pinMode(cPin, HIGH); //Display 7
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW);
+  pinMode(aPin, HIGH);
+  pinMode(bPin, HIGH);
+  pinMode(cPin, HIGH);
+  pinMode(dPin, HIGH);
+  pinMode(ePin, HIGH);
+  pinMode(fPin, HIGH);
+  pinMode(gPin, HIGH); //Display 8
+  delay(2000);
+  pinMode(ePin, LOW); //Display 9
+  delay(2000);
+  pinMode(aPin, LOW);
+  pinMode(bPin, LOW);
+  pinMode(cPin, LOW);
+  pinMode(dPin, LOW);
+  pinMode(ePin, LOW);
+  pinMode(fPin, LOW);
+  pinMode(gPin, LOW); //Turn all off
+}
